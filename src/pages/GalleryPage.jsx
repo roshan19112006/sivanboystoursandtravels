@@ -19,12 +19,14 @@ export default function GalleryPage() {
   };
 
   const handlePrevImage = () => {
+    if (!filteredImages.length) return;
     const nextIdx = (selectedIndex - 1 + filteredImages.length) % filteredImages.length;
     setSelectedIndex(nextIdx);
     setSelectedImage(filteredImages[nextIdx]);
   };
 
   const handleNextImage = () => {
+    if (!filteredImages.length) return;
     const nextIdx = (selectedIndex + 1) % filteredImages.length;
     setSelectedIndex(nextIdx);
     setSelectedImage(filteredImages[nextIdx]);

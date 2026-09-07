@@ -34,12 +34,14 @@ export default function HomePage() {
   };
 
   const handlePrevImage = () => {
+    if (!featuredGalleryImages.length) return;
     const nextIdx = (selectedIndex - 1 + featuredGalleryImages.length) % featuredGalleryImages.length;
     setSelectedIndex(nextIdx);
     setSelectedImage(featuredGalleryImages[nextIdx]);
   };
 
   const handleNextImage = () => {
+    if (!featuredGalleryImages.length) return;
     const nextIdx = (selectedIndex + 1) % featuredGalleryImages.length;
     setSelectedIndex(nextIdx);
     setSelectedImage(featuredGalleryImages[nextIdx]);
