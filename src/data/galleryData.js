@@ -189,27 +189,45 @@ export const galleryData = [
   {
     id: "vehicle-sedan-01",
     src: "/images/gallery/vehicles/sedan-travel-01.webp",
-    title: "AC Sedan for Local Sightseeing",
+    title: "Swift Dzire (AC Sedan)",
     category: "Vehicles",
-    alt: "Sivan Boys Tours & Travels sedan taxi for Rameswaram sightseeing",
-    location: "Rameswaram Sightseeing Fleet",
+    alt: "Swift Dzire sedan taxi for Rameswaram temple sightseeing and transfers",
+    location: "Rameswaram Fleet",
     featured: true
   },
   {
     id: "vehicle-innova-01",
     src: "/images/gallery/vehicles/suv-innova-01.webp",
-    title: "Innova Crysta Premium SUV",
+    title: "Toyota Innova / Crysta",
     category: "Vehicles",
-    alt: "Innova Crysta vehicle for family outstation travel from Rameswaram",
-    location: "South India Outstation Fleet",
-    featured: false
+    alt: "Toyota Innova Crysta premium SUV for outstation tours and family pilgrimages",
+    location: "Outstation Fleet",
+    featured: true
+  },
+  {
+    id: "vehicle-ertiga-01",
+    src: "/images/gallery/vehicles/seven-seater-01.webp",
+    title: "Maruti Ertiga (7 Seater MPV)",
+    category: "Vehicles",
+    alt: "Maruti Ertiga 7 seater family MPV for Rameswaram tours",
+    location: "Family Tour Fleet",
+    featured: true
+  },
+  {
+    id: "vehicle-bus-01",
+    src: "/images/gallery/vehicles/tourist-van-01.webp",
+    title: "Tourist Bus / Mini Coach",
+    category: "Vehicles",
+    alt: "Tourist bus and mini coach for large pilgrim groups and yatras",
+    location: "Group Travel Fleet",
+    featured: true
   },
   {
     id: "vehicle-tempo-01",
     src: "/images/gallery/vehicles/tempo-traveller-01.webp",
-    title: "Luxury Tempo Traveller",
+    title: "Force Tempo Traveller",
     category: "Vehicles",
-    alt: "Tempo traveller for group tours and temple yatras from Rameswaram",
+    alt: "Force luxury tempo traveller for group pilgrimages and outstation tours",
     location: "Group Travel Fleet",
     featured: true
   },
