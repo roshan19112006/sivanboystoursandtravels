@@ -107,11 +107,20 @@ export const galleryData = [
     featured: false
   },
   {
+    id: "tamil-nadu-kanchipuram-01",
+    src: "/images/gallery/tamil-nadu/kanchipuram-temple-01.webp",
+    title: "Kanchipuram Divya Desam",
+    category: "Tamil Nadu",
+    alt: "Kanchipuram Divya Desam temple gopuram and silk town tour from Rameswaram",
+    location: "Kanchipuram, Tamil Nadu",
+    featured: true
+  },
+  {
     id: "temple-kanchipuram-01",
     src: "/images/gallery/temples/kanchipuram-temple-01.webp",
-    title: "Kanchipuram Kamakshi Temple",
+    title: "Kanchipuram Divya Desam",
     category: "Temple Tours",
-    alt: "Kanchipuram Kamakshi Amman and Ekambareswarar Temple pilgrimage",
+    alt: "Kanchipuram Divya Desam temple gopuram and pilgrimage tour from Rameswaram",
     location: "Kanchipuram, Tamil Nadu",
     featured: false
   },
