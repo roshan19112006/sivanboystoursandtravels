@@ -189,64 +189,64 @@ export const galleryData = [
   {
     id: "vehicle-sedan-01",
     src: "/images/gallery/vehicles/sedan-travel-01.webp",
-    title: "Swift Dzire (AC Sedan)",
+    title: "Sedan (Swift Dzire)",
     category: "Vehicles",
-    alt: "Swift Dzire sedan taxi for Rameswaram temple sightseeing and transfers",
+    alt: "Sedan vehicle for couples and small family Rameswaram sightseeing",
     location: "Rameswaram Fleet",
     featured: true
   },
   {
-    id: "vehicle-innova-01",
+    id: "vehicle-suv-01",
     src: "/images/gallery/vehicles/suv-innova-01.webp",
-    title: "Toyota Innova / Crysta",
+    title: "SUV (Toyota Innova Crysta)",
     category: "Vehicles",
-    alt: "Toyota Innova Crysta premium SUV for outstation tours and family pilgrimages",
+    alt: "SUV vehicle for family pilgrimage and outstation tours from Rameswaram",
     location: "Outstation Fleet",
     featured: true
   },
   {
-    id: "vehicle-ertiga-01",
+    id: "vehicle-7seater-01",
     src: "/images/gallery/vehicles/seven-seater-01.webp",
-    title: "Maruti Ertiga (7 Seater MPV)",
+    title: "7 Seater (Maruti Ertiga)",
     category: "Vehicles",
-    alt: "Maruti Ertiga 7 seater family MPV for Rameswaram tours",
+    alt: "7 Seater vehicle for family travel and local temple tours in Rameswaram",
     location: "Family Tour Fleet",
+    featured: true
+  },
+  {
+    id: "vehicle-12seater-01",
+    src: "/images/gallery/vehicles/sml-coach-01.webp",
+    title: "12 Seater (Executive Coach)",
+    category: "Vehicles",
+    alt: "12 Seater vehicle for pilgrimage groups and South India tours",
+    location: "Executive Coach Fleet",
     featured: true
   },
   {
     id: "vehicle-tempo-01",
     src: "/images/gallery/vehicles/tempo-traveller-01.webp",
-    title: "Force Tempo Traveller",
+    title: "Tempo Traveller (14-20 Seater)",
     category: "Vehicles",
-    alt: "Force luxury tempo traveller for group pilgrimages and outstation tours",
+    alt: "Tempo Traveller vehicle for large groups and extended temple yatras",
     location: "Group Travel Fleet",
     featured: true
   },
   {
-    id: "vehicle-tourist-van-01",
+    id: "vehicle-touristvan-01",
     src: "/images/gallery/vehicles/tourist-van-01.webp",
-    title: "Mahindra Tourist Van / Mini Coach",
+    title: "Tourist Van (Mini Coach)",
     category: "Vehicles",
-    alt: "Mahindra tourist van and mini coach for group temple visits",
+    alt: "Tourist Van mini coach for medium pilgrim batches and temple visits",
     location: "Pilgrim Group Fleet",
     featured: true
   },
   {
-    id: "vehicle-sml-01",
-    src: "/images/gallery/vehicles/sml-coach-01.webp",
-    title: "SML Executive Luxury Coach",
-    category: "Vehicles",
-    alt: "SML executive luxury mini coach for comfortable group pilgrimage",
-    location: "Executive Coach Fleet",
-    featured: true
-  },
-  {
-    id: "vehicle-bus-01",
+    id: "vehicle-group-01",
     src: "/images/gallery/vehicles/group-bus-01.webp",
-    title: "Large Luxury Tourist Coach / Bus",
+    title: "Other Group Vehicles (Tourist Coach)",
     category: "Vehicles",
-    alt: "Large tourist coach and bus for sabhas, sangams and wedding tours",
-    location: "Tour Bus Fleet",
+    alt: "Other group vehicles and tourist buses for large sangams and sabhas",
+    location: "Large Coach Fleet",
     featured: true
   },
 

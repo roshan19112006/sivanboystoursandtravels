@@ -20,9 +20,17 @@ export default function VehiclesPage() {
           <h1 className="text-2xl sm:text-4xl font-black text-slate-900 tracking-tight">
             Travel Vehicles For Every Journey
           </h1>
-          <p className="text-xs sm:text-sm text-slate-600 max-w-xl mx-auto leading-relaxed">
-            From comfortable sedans to spacious Tempo Travellers and group tourist coaches, all maintained in pristine condition with experienced chauffeurs.
+          <p className="text-xs sm:text-sm text-slate-600 max-w-2xl mx-auto leading-relaxed">
+            Tailored travel vehicles for <strong>Couples</strong>, <strong>Families</strong>, <strong>Small Groups</strong>, <strong>Large Groups</strong>, <strong>Pilgrimage Groups</strong>, and <strong>Outstation Travel</strong> across Tamil Nadu and South India.
           </p>
+
+          <div className="flex flex-wrap justify-center gap-2 pt-2">
+            {["Couples", "Families", "Small Groups", "Large Groups", "Pilgrimage Groups", "Outstation Travel"].map((tag, i) => (
+              <span key={i} className="px-2.5 py-0.5 rounded-full bg-white text-sky-700 border border-sky-200 text-[11px] font-semibold shadow-xs">
+                ✓ {tag}
+              </span>
+            ))}
+          </div>
         </div>
       </section>
 
@@ -47,6 +55,11 @@ export default function VehiclesPage() {
                   <span className="absolute top-3 left-3 bg-white/95 backdrop-blur-md px-2.5 py-0.5 rounded-lg text-[10px] font-bold text-sky-700 uppercase tracking-wider border border-sky-200 shadow-sm">
                     {v.category}
                   </span>
+                  {v.idealFor && (
+                    <span className="absolute bottom-3 left-3 bg-slate-900/80 text-white px-2 py-0.5 rounded text-[10px] font-medium">
+                      Ideal for: {v.idealFor}
+                    </span>
+                  )}
                 </div>
 
                 <div className="p-5 flex-1 flex flex-col justify-between space-y-4">
