@@ -5,7 +5,7 @@ export const packagesData = [
     title: "Rameswaram Sightseeing & Temple Tour",
     category: "Rameswaram",
     tag: "Most Popular",
-    heroImage: "/images/gallery/rameswaram/ramanathaswamy-temple-01.webp",
+    heroImage: "/images/gallery/rameswaram/rameswaram-sightseeing-01.webp",
     summary: "Complete Rameswaram pilgrimage and sightseeing covering Ramanathaswamy Temple, 22 Holy Theerthams, Pamban Sea Bridge, and Dhanushkodi ghost town.",
     duration: "1 to 2 Days",
     highlights: [

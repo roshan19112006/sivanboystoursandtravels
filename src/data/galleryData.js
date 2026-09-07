@@ -15,6 +15,15 @@ export const GALLERY_CATEGORIES = [
 export const galleryData = [
   // RAMESWARAM & PILGRIMAGE
   {
+    id: "rameswaram-sightseeing-01",
+    src: "/images/gallery/rameswaram/rameswaram-sightseeing-01.webp",
+    title: "Rameswaram Sightseeing Tour",
+    category: "Rameswaram",
+    alt: "Rameswaram sightseeing tour featuring scenic Pamban Sea Bridge and coastline",
+    location: "Rameswaram, Tamil Nadu",
+    featured: true
+  },
+  {
     id: "rameswaram-pamban-01",
     src: "/images/gallery/rameswaram/pamban-bridge-01.webp",
     title: "Pamban Sea Bridge",
