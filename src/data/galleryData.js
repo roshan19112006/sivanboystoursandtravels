@@ -127,11 +127,11 @@ export const galleryData = [
   {
     id: "temple-kumbakonam-01",
     src: "/images/gallery/temples/kumbakonam-navagraha-01.webp",
-    title: "Kumbakonam Navagraha Shrine",
+    title: "Kumbakonam Navagraha Temple",
     category: "Temple Tours",
-    alt: "Kumbakonam ancient temple gopuram and Navagraha pilgrimage tour",
+    alt: "Sacred temple theertham tank and towering gopurams at Kumbakonam Navagraha pilgrimage",
     location: "Kumbakonam, Tamil Nadu",
-    featured: false
+    featured: true
   },
 
   // ANDHRA PRADESH
@@ -158,11 +158,11 @@ export const galleryData = [
   {
     id: "kerala-kovalam-01",
     src: "/images/gallery/kerala/kovalam-beach-01.webp",
-    title: "Kovalam Beach & Lighthouse",
+    title: "Kerala Backwaters Houseboat Cruise",
     category: "Kerala",
-    alt: "Kovalam beach scenic coastline and lighthouse tour in Kerala",
-    location: "Kovalam, Kerala",
-    featured: false
+    alt: "Traditional Kerala luxury houseboat cruising through scenic palm-fringed backwaters",
+    location: "Kerala Backwaters & Poovar",
+    featured: true
   },
   {
     id: "kerala-poovar-01",
