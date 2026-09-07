@@ -15,9 +15,11 @@ export default function Footer() {
           {/* Brand Info */}
           <div className="space-y-4">
             <div className="flex items-center gap-2.5">
-              <div className="w-9 h-9 rounded-xl bg-sky-600 flex items-center justify-center text-white font-bold">
-                <Compass className="w-5 h-5" />
-              </div>
+              <img 
+                src="/logo.png" 
+                alt="Sivan Boys Tours & Travels Logo" 
+                className="w-10 h-10 rounded-xl object-contain bg-white shadow-xs"
+              />
               <span className="text-lg font-black tracking-tight text-sky-950">SIVAN BOYS TRAVELS</span>
             </div>
             <p className="text-xs text-slate-600 leading-relaxed">

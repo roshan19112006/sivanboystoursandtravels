@@ -39,9 +39,11 @@ export default function Header() {
           
           {/* Logo Brand Name: SIVAN BOYS TOURS & TRAVELS */}
           <Link to="/" className="flex items-center gap-3 group">
-            <div className="w-11 h-11 rounded-xl bg-gradient-to-br from-sky-500 to-blue-600 flex items-center justify-center text-white font-bold shadow-md shadow-sky-500/20 group-hover:scale-105 transition-transform">
-              <Compass className="w-6 h-6 text-white" />
-            </div>
+            <img 
+              src="/logo.png" 
+              alt="Sivan Boys Tours & Travels Logo" 
+              className="w-12 h-12 rounded-xl object-contain drop-shadow-sm group-hover:scale-105 transition-transform bg-white"
+            />
             <div>
               <div className="text-lg sm:text-xl font-black tracking-tight text-sky-900 leading-tight">
                 SIVAN BOYS
