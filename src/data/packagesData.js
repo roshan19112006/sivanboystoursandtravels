@@ -169,7 +169,7 @@ export const packagesData = [
     title: "Customized South India & Outstation Tours",
     category: "South India",
     tag: "Tailored Journeys",
-    heroImage: "/images/gallery/karnataka/mysore-palace-01.webp",
+    heroImage: "/images/gallery/south-india/south-india-01.webp",
     summary: "Customized outstation vehicle services from Rameswaram to Karnataka (Bengaluru, Mysore, Coorg), Puducherry, Telangana, and Goa with trusted chauffeurs.",
     duration: "Customized Days",
     highlights: [

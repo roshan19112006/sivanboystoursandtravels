@@ -174,15 +174,15 @@ export const galleryData = [
     featured: false
   },
 
-  // KARNATAKA
+  // KARNATAKA & SOUTH INDIA
   {
-    id: "karnataka-mysore-01",
-    src: "/images/gallery/karnataka/mysore-palace-01.webp",
-    title: "Mysore Amba Vilas Palace",
+    id: "south-india-circuits-01",
+    src: "/images/gallery/south-india/south-india-01.webp",
+    title: "South India Heritage & Outstation Tours",
     category: "Karnataka",
-    alt: "Mysore Palace illumination and heritage tour with outstation cab",
-    location: "Mysore, Karnataka",
-    featured: false
+    alt: "South India tour circuits covering Tamil Nadu, Karnataka, Kerala, and Andhra Pradesh",
+    location: "South India Destinations",
+    featured: true
   },
 
   // VEHICLES
