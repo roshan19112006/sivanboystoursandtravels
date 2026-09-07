@@ -36,18 +36,6 @@ export const vehiclesData = [
     image: "/images/gallery/vehicles/seven-seater-01.webp"
   },
   {
-    id: "tourist-bus",
-    title: "Tourist Bus / Mini Coach",
-    category: "Tourist Bus",
-    capacity: "21 to 40+ Passengers + Crew",
-    luggage: "Large under-deck luggage space",
-    ac: "Heavy Duty Climate Control",
-    description: "Engineered for medium to large pilgrim batches, family sangams, and group yatras travelling to Rameswaram, Madurai, Tirupati, and Kanyakumari.",
-    features: ["Wide seats with headrests", "Spacious central walkway", "Luggage racks & trunks", "Experienced highway chauffeurs"],
-    bestFor: "Pilgrimage sabhas, wedding party travel, community & school tours",
-    image: "/images/gallery/vehicles/tourist-van-01.webp"
-  },
-  {
     id: "tempo-traveller",
     title: "Force Tempo Traveller",
     category: "Tempo Traveller",
@@ -58,5 +46,41 @@ export const vehiclesData = [
     features: ["Push-back bucket seats", "Air suspension for smooth ride", "Large panoramic glass windows", "First aid & mic support"],
     bestFor: "Temple yatras, joint family vacations, college & corporate groups",
     image: "/images/gallery/vehicles/tempo-traveller-01.webp"
+  },
+  {
+    id: "tourist-van",
+    title: "Mahindra Tourist Van / Mini Coach",
+    category: "Tourist Van",
+    capacity: "21 to 25 Passengers + Crew",
+    luggage: "Large rear luggage compartment",
+    ac: "High Capacity AC",
+    description: "Engineered for medium pilgrim batches, temple mandalis, and family functions travelling to Rameswaram, Madurai, and Kanyakumari.",
+    features: ["Wide high-back seats", "Spacious walkway", "Charging points", "Experienced hill-route drivers"],
+    bestFor: "Pilgrimage groups, family functions, and coastal tours",
+    image: "/images/gallery/vehicles/tourist-van-01.webp"
+  },
+  {
+    id: "sml-coach",
+    title: "SML Executive Luxury Coach",
+    category: "Executive Coach",
+    capacity: "26 to 32 Passengers + Crew",
+    luggage: "Deep under-deck luggage bays",
+    ac: "Heavy Duty Climate Control",
+    description: "Executive high-deck tourist coach offering panoramic sightseeing visibility, smooth highway cruising, and superior seating comfort.",
+    features: ["Plush reclining seats", "Individual reading lamps", "Wide aisles & sound insulation", "Experienced long-distance captains"],
+    bestFor: "Medium devotee groups, interstate tours, corporate outings",
+    image: "/images/gallery/vehicles/sml-coach-01.webp"
+  },
+  {
+    id: "group-bus",
+    title: "Large Luxury Tourist Coach / Bus",
+    category: "Tourist Bus",
+    capacity: "35 to 50+ Passengers",
+    luggage: "Expansive underbody luggage compartments",
+    ac: "AC & Non-AC Configurations Available",
+    description: "Full-size tourist coaches for large devotees' sangams, school excursions, wedding travel, and organized nation-wide yatras originating from Rameswaram.",
+    features: ["Air-suspension smooth travel", "Full highway safety clearance", "Emergency exits & mic PA system", "Two veteran highway drivers"],
+    bestFor: "Large pilgrim yatras, sabhas, and organized tourist groups",
+    image: "/images/gallery/vehicles/group-bus-01.webp"
   }
 ];

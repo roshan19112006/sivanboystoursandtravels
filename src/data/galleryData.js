@@ -214,21 +214,39 @@ export const galleryData = [
     featured: true
   },
   {
-    id: "vehicle-bus-01",
-    src: "/images/gallery/vehicles/tourist-van-01.webp",
-    title: "Tourist Bus / Mini Coach",
-    category: "Vehicles",
-    alt: "Tourist bus and mini coach for large pilgrim groups and yatras",
-    location: "Group Travel Fleet",
-    featured: true
-  },
-  {
     id: "vehicle-tempo-01",
     src: "/images/gallery/vehicles/tempo-traveller-01.webp",
     title: "Force Tempo Traveller",
     category: "Vehicles",
     alt: "Force luxury tempo traveller for group pilgrimages and outstation tours",
     location: "Group Travel Fleet",
+    featured: true
+  },
+  {
+    id: "vehicle-tourist-van-01",
+    src: "/images/gallery/vehicles/tourist-van-01.webp",
+    title: "Mahindra Tourist Van / Mini Coach",
+    category: "Vehicles",
+    alt: "Mahindra tourist van and mini coach for group temple visits",
+    location: "Pilgrim Group Fleet",
+    featured: true
+  },
+  {
+    id: "vehicle-sml-01",
+    src: "/images/gallery/vehicles/sml-coach-01.webp",
+    title: "SML Executive Luxury Coach",
+    category: "Vehicles",
+    alt: "SML executive luxury mini coach for comfortable group pilgrimage",
+    location: "Executive Coach Fleet",
+    featured: true
+  },
+  {
+    id: "vehicle-bus-01",
+    src: "/images/gallery/vehicles/group-bus-01.webp",
+    title: "Large Luxury Tourist Coach / Bus",
+    category: "Vehicles",
+    alt: "Large tourist coach and bus for sabhas, sangams and wedding tours",
+    location: "Tour Bus Fleet",
     featured: true
   },
 
